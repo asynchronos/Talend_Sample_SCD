@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_IhqPIEQVEeuLTsGui14_7w" name="snowflake_demo_db" id="_5H-IUEQUEeuLTsGui14_7w" label="snowflake_demo_db" dataPackage="_We4X8EQVEeuLTsGui14_7w _We4X80QVEeuLTsGui14_7w _We4X9kQVEeuLTsGui14_7w _We4YAEQVEeuLTsGui14_7w" compProperties="{&quot;@type&quot;:&quot;org.talend.components.jdbc.wizard.JDBCConnectionWizardProperties&quot;,&quot;name&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:false,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;name&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;name&quot;,&quot;tags&quot;:null},&quot;repositoryLocation&quot;:&quot;_5H-IUEQUEeuLTsGui14_7w&quot;,&quot;connection&quot;:{&quot;jdbcUrl&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;jdbc:snowflake://jp37205.southeast-asia.azure.snowflakecomputing.com/?db=demo_db&amp;schema=public&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;jdbcUrl&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;jdbcUrl&quot;,&quot;tags&quot;:null},&quot;driverTable&quot;:{&quot;drivers&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;,&quot;@items&quot;:[&quot;\&quot;mvn:net.snowflake/snowflake-jdbc/3.11.1/jar\&quot;&quot;]},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;drivers&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.util.List&lt;java.lang.String>&quot;,&quot;name&quot;:&quot;drivers&quot;,&quot;tags&quot;:null},&quot;name&quot;:&quot;driverTable&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;driverClass&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;net.snowflake.client.jdbc.SnowflakeDriver&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;driverClass&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;driverClass&quot;,&quot;tags&quot;:null},&quot;userPassword&quot;:{&quot;useAuth&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;useAuth&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;useAuth&quot;,&quot;tags&quot;:null},&quot;userId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;prakitsi&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;userId&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;userId&quot;,&quot;tags&quot;:null},&quot;password&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:&quot;enc:system.encryption.key.v1:0FAtITd6s7DDe9+DkcOEfI4w47l7FaoUc01pHU1A912Z3GoETg==&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;password&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;password&quot;,&quot;tags&quot;:null},&quot;needSwitch&quot;:false,&quot;name&quot;:&quot;userPassword&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;useInWizard&quot;:true,&quot;name&quot;:&quot;connection&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;mappingFile&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;snowflake_id&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;mappingFile&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;mappingFile&quot;,&quot;tags&quot;:null},&quot;org.talend.daikon.properties.PropertiesImpl.name&quot;:&quot;connection&quot;,&quot;validationResult&quot;:{&quot;status&quot;:{&quot;name&quot;:&quot;OK&quot;},&quot;message&quot;:&quot;Connection successful&quot;,&quot;number&quot;:0},&quot;tags&quot;:null}" DatabaseType="JDBC" DriverJarPath="snowflake-jdbc-3.11.1.jar" DriverClass="net.snowflake.client.jdbc.SnowflakeDriver" URL="jdbc:snowflake://jp37205.southeast-asia.azure.snowflakecomputing.com/?db=demo_db&amp;schema=public" Port="" Username="prakitsi" Password="enc:system.encryption.key.v1:VTgZ16OoRfi/at13SIHJ/wBou08cmnrOpV9Fjs3mdinZFeW8Hg==" ServerName="" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="snowflake_id" ProductId="JDBC" StandardSQL="true" SQLMode="false">
+    <taggedValue xmi:id="_IhqPIUQVEeuLTsGui14_7w" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_IicSQEQVEeuLTsGui14_7w" tag="Status" value=""/>
+    <taggedValue xmi:id="_IicSQUQVEeuLTsGui14_7w" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_IicSQkQVEeuLTsGui14_7w" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_IicSQ0QVEeuLTsGui14_7w" tag="Description" value=""/>
+    <taggedValue xmi:id="_IicSREQVEeuLTsGui14_7w" tag="Author" value=""/>
+    <taggedValue xmi:id="_IicSRUQVEeuLTsGui14_7w" tag="otherParameter"/>
+    <taggedValue xmi:id="_WO8egEQVEeuLTsGui14_7w" tag="DB ProductName" value="Snowflake"/>
+    <taggedValue xmi:id="_WO8egUQVEeuLTsGui14_7w" tag="DB ProductVersion" value="4.42.2"/>
+    <taggedValue xmi:id="_WO8egkQVEeuLTsGui14_7w" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_IhqPIkQVEeuLTsGui14_7w" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_We4X8EQVEeuLTsGui14_7w" name="DEMO_DB" dataManager="_IhqPIEQVEeuLTsGui14_7w">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X8UQVEeuLTsGui14_7w" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X8kQVEeuLTsGui14_7w" name="PUBLIC">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_oAa8EEQVEeuLTsGui14_7w" name="CUSTOMERS" id="_oAYf0EQVEeuLTsGui14_7w" label="CUSTOMERS" tableType="TABLE">
+        <taggedValue xmi:id="_oAa8EUQVEeuLTsGui14_7w" tag="Comment" value=""/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oAa8EkQVEeuLTsGui14_7w" name="CUSTOMERID" label="CUSTOMERID" length="5" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_oAa8E0QVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oAa8FEQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oAa8FUQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oAa8FkQVEeuLTsGui14_7w" name="COMPANYNAME" label="COMPANYNAME" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_oAa8F0QVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oAa8GEQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oAa8GUQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oAa8GkQVEeuLTsGui14_7w" name="CONTACTNAME" label="CONTACTNAME" length="30" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oAa8G0QVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oAa8HEQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oAa8HUQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oAa8HkQVEeuLTsGui14_7w" name="CONTACTTITLE" label="CONTACTTITLE" length="30" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oAa8H0QVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oAa8IEQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oAa8IUQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oAa8IkQVEeuLTsGui14_7w" name="ADDRESS" label="ADDRESS" length="60" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oAa8I0QVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oAa8JEQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oAa8JUQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oAa8JkQVEeuLTsGui14_7w" name="CITY" label="CITY" length="15" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oAa8J0QVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oAa8KEQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oAa8KUQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oAa8KkQVEeuLTsGui14_7w" name="REGION" label="REGION" length="15" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oAa8K0QVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oAa8LEQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oAa8LUQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oAa8LkQVEeuLTsGui14_7w" name="POSTALCODE" label="POSTALCODE" length="10" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oAa8L0QVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oAa8MEQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oAa8MUQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oAa8MkQVEeuLTsGui14_7w" name="COUNTRY" label="COUNTRY" length="15" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oAa8M0QVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oAa8NEQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oAa8NUQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oAa8NkQVEeuLTsGui14_7w" name="PHONE" label="PHONE" length="24" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oAa8N0QVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oAa8OEQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oAa8OUQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oAa8OkQVEeuLTsGui14_7w" name="FAX" label="FAX" length="24" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oAa8O0QVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oAa8PEQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oAa8PUQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_oFkh0UQVEeuLTsGui14_7w" name="CUSTOMERS_SCD" id="_oFkh0EQVEeuLTsGui14_7w" label="CUSTOMERS_SCD" tableType="TABLE">
+        <taggedValue xmi:id="_oFkh0kQVEeuLTsGui14_7w" tag="Comment" value=""/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oFkh00QVEeuLTsGui14_7w" name="CUSTOMERID" label="CUSTOMERID" length="5" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_oFkh1EQVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oFkh1UQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oFkh1kQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oFkh10QVEeuLTsGui14_7w" name="COMPANYNAME" label="COMPANYNAME" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_oFkh2EQVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oFkh2UQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oFkh2kQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oFkh20QVEeuLTsGui14_7w" name="CONTACTNAME" label="CONTACTNAME" length="30" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oFkh3EQVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oFkh3UQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oFkh3kQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oFkh30QVEeuLTsGui14_7w" name="CONTACTTITLE" label="CONTACTTITLE" length="30" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oFkh4EQVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oFkh4UQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oFkh4kQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oFkh40QVEeuLTsGui14_7w" name="ADDRESS" label="ADDRESS" length="60" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oFkh5EQVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oFkh5UQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oFkh5kQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oFkh50QVEeuLTsGui14_7w" name="CITY" label="CITY" length="15" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oFkh6EQVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oFkh6UQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oFkh6kQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oFkh60QVEeuLTsGui14_7w" name="REGION" label="REGION" length="15" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oFkh7EQVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oFkh7UQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oFkh7kQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oFkh70QVEeuLTsGui14_7w" name="POSTALCODE" label="POSTALCODE" length="10" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oFkh8EQVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oFkh8UQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oFkh8kQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oFkh80QVEeuLTsGui14_7w" name="COUNTRY" label="COUNTRY" length="15" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oFkh9EQVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oFkh9UQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oFkh9kQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oFkh90QVEeuLTsGui14_7w" name="PHONE" label="PHONE" length="24" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oFkh-EQVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oFkh-UQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oFkh-kQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_oFkh-0QVEeuLTsGui14_7w" name="FAX" label="FAX" length="24" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_oFkh_EQVEeuLTsGui14_7w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_oFkh_UQVEeuLTsGui14_7w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_oFkh_kQVEeuLTsGui14_7w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_We4X80QVEeuLTsGui14_7w" name="PC_TALEND_DB" dataManager="_IhqPIEQVEeuLTsGui14_7w">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X9EQVEeuLTsGui14_7w" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X9UQVEeuLTsGui14_7w" name="PUBLIC"/>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_We4X9kQVEeuLTsGui14_7w" name="SNOWFLAKE_SAMPLE_DATA" dataManager="_IhqPIEQVEeuLTsGui14_7w">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X90QVEeuLTsGui14_7w" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X-EQVEeuLTsGui14_7w" name="TPCDS_SF100TCL"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X-UQVEeuLTsGui14_7w" name="TPCDS_SF10TCL"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X-kQVEeuLTsGui14_7w" name="TPCH_SF001"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X-0QVEeuLTsGui14_7w" name="TPCH_SF1"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X_EQVEeuLTsGui14_7w" name="TPCH_SF10"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X_UQVEeuLTsGui14_7w" name="TPCH_SF100"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X_kQVEeuLTsGui14_7w" name="TPCH_SF1000"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4X_0QVEeuLTsGui14_7w" name="TPCH_SF10000"/>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_We4YAEQVEeuLTsGui14_7w" name="UTIL_DB" dataManager="_IhqPIEQVEeuLTsGui14_7w">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4YAUQVEeuLTsGui14_7w" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_We4YAkQVEeuLTsGui14_7w" name="PUBLIC"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
